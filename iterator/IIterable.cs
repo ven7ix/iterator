@@ -1,6 +1,6 @@
 ﻿namespace iterator
 {
-    internal interface IIterable<T>
+    public interface IIterable<T>
     {
         IIterator<T> GetIterator();
     }
